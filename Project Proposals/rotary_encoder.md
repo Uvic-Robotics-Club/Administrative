@@ -28,16 +28,16 @@ These functions are provided only as a template and can be modified to suit the 
 
 #### read:
  * Parameters:
-  * None
+   * None
  * Returns:
-  * the number of pulses that has occurred as a [signed long](https://learn.sparkfun.com/tutorials/data-types-in-arduino).
+   * the number of pulses that has occurred as a [signed long](https://learn.sparkfun.com/tutorials/data-types-in-arduino).
  * Specifications:
-  * Positive numbers are assumed to be forward rotation while negative are backwards rotation.
+   * Positive numbers are assumed to be forward rotation while negative are backwards rotation.
 
 #### last_read:
 * Parameters:
- * None
+  * None
 * Returns:
- * the number of pulses that has occurred since the last read or last_read function as a [signed long](https://learn.sparkfun.com/tutorials/data-types-in-arduino).
+  * the number of pulses that has occurred since the last read or last_read function as a [signed long](https://learn.sparkfun.com/tutorials/data-types-in-arduino).
 * Specifications:
- * Positive numbers are assumed to be forward rotation while negative are backwards rotation.
+  * Positive numbers are assumed to be forward rotation while negative are backwards rotation.
