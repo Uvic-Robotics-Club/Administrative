@@ -41,26 +41,26 @@ These functions are provided only as a template and can be modified to suit the 
   * None
 
 #### velocity_max:
+* Parameters:
+  * a double that updates the maximum velocity that the rover can go
+* Returns:
+  * None
+* Specifications:
+  * This is assumed to be the positive and negative maximum
+
+#### accel_max:
   * Parameters:
-    * a double that updates the maximum velocity that the rover can go
+    * a double that updates the maximum acceleration that the rover can go
   * Returns:
     * None
   * Specifications:
     * This is assumed to be the positive and negative maximum
 
-#### accel_max:
-      * Parameters:
-        * a double that updates the maximum acceleration that the rover can go
-      * Returns:
-        * None
-      * Specifications:
-        * This is assumed to be the positive and negative maximum
-
 #### set_mode:
-      * Parameters:
-        * an integer that specifies the mode of operation. Eg. 1 = position mode, 2 = velocity mode, 3 = acceleration mode
-      * Returns:
-        * None
-      * Specifications:
-        * Must have protection if a wrong input is entered
-        * Must limit ramping of output based on the mode that is selected.
+  * Parameters:
+    * an integer that specifies the mode of operation. Eg. 1 = position mode, 2 = velocity mode, 3 = acceleration mode
+  * Returns:
+    * None
+  * Specifications:
+    * Must have protection if a wrong input is entered
+    * Must limit ramping of output based on the mode that is selected.
