@@ -3,8 +3,9 @@
 ### Project Lead:
 [Gregory O'Hagan](https://github.com/Gregory-OHagan)
 
-### Project status: 
-In progress: See the Project Lead for more information.
+### Project status:
+ - [x] Ready: See the Software Coordinator ([Gregory O'Hagan](https://github.com/Gregory-OHagan)) if you would like to start this project.
+ - [ ] In progress: See the Project Lead for more information.
 
 ### Project description:
 An important part of image processing is to be able to extract frequency information from an image, and an NxN cosine transform is an effective representation that is still easy to work with. We need a module for forward and backward cosine transforms.
@@ -12,7 +13,7 @@ An important part of image processing is to be able to extract frequency informa
 ### Project constaints:
 No restrictions on additional methods, blocking functions, or threading
 
-### Required language: 
+### Required language:
  * C++
 
 ### Key skills:
