@@ -1,10 +1,11 @@
 # Rover Module: Rotary Encoder
 
 ### Project Lead:
-(Open)
+Angus DeCosse
 
 ### Project status:
- - [ ] Ready: See the Software Coordinator ([Gregory O'Hagan](https://github.com/Gregory-OHagan)) if you would like to start this project.
+ - [x] Ready: See the Software Coordinator ([Gregory O'Hagan](https://github.com/Gregory-OHagan)) if you would like to start this project.
+ - [ ] In progress: See the Project Lead for more information.
 
 ### Project description:
 The purpose of this project is to create an interface on an arduino that will be
