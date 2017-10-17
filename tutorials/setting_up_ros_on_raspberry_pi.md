@@ -29,6 +29,7 @@ Ok now make sure you reboot now.
 
 Then navigate to /etc/dphys-swapfile 
 change the variable CONF_SWAPSIZE=1000
+
 This will give your raspberry pi a "cashe" of a gig on the hdd to play with. 
 
 Reboot again
