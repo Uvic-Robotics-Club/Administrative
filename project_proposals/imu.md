@@ -19,7 +19,7 @@ inertial mass unit circuit fabricated by the electrical team.
  * Develop a system model
 
 ### Required language:
- * C++/python
+ * C++ (Arduino)
 
 ### Key skills:
  * I2C communication
