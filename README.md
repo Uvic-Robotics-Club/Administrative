@@ -10,6 +10,7 @@ All software standards, tutorials, project proposals, and administrative documen
 #### In Progress
  * [Rotary Encoder](/project_proposals/rotary_encoder.md)
  * [Cosine Transform](/project_proposals/cosine_transform.md)
+ * [IMU](/project_proposals/imu.md)
 
 ## Who do I talk to?
 For more information or to start or propose new projects, talk to the Software Coordinator ([Gregory O'Hagan](https://github.com/Gregory-OHagan)).
