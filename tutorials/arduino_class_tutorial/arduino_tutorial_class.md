@@ -54,3 +54,4 @@ These are the functions that the provided test program will expect.
    * int angle
  * Specifications:
    * Angles must be in degrees (0 to 360)
+   * Reads the change from the last get_angle OR get_angle_change call
