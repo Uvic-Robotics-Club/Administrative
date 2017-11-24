@@ -12,13 +12,13 @@ Rotary_encoder::Rotary_encoder(){
 // Does most of the setup work
 void Rotary_encoder::begin(int pinNum){
   sensorPin = pinNum;
-  lastAngle = analogRead(sensorPin) * 360 / 1024;
+  lastAngle = int(double(analogRead(sensorPin)) * 360 / 1024);
 }
 
 
 // Reads the current angle
 int Rotary_encoder::get_angle(){
-  int newAngle = analogRead(sensorPin) * 360 / 1024;
+  int newAngle = int(double(analogRead(sensorPin)) * 360 / 1024);
   lastAngle = newAngle;
   return newAngle;
 }
@@ -26,7 +26,7 @@ int Rotary_encoder::get_angle(){
 
 // Reads the angle change from the last get_angle or get_angle_change call
 int Rotary_encoder::get_angle_change(){
-  int newAngle = analogRead(sensorPin) * 360 / 1024;
+  int newAngle = int(double(analogRead(sensorPin)) * 360 / 1024);
   int result = newAngle - lastAngle;
   lastAngle = newAngle;
   return result;
