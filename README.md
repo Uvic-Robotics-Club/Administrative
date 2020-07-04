@@ -1,4 +1,3 @@
-# Welcome to the UVIC ROBOTICS Admin
+# Administrative
 
-## What this repository is supposed to be
-All software standards, tutorials, project proposals, and administrative documents
+This repo will contain administrative documents that are used in our [club wiki](https://github.com/Uvic-Robotics-Club/Scheduler/wiki).
